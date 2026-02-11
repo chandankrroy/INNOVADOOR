@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gray-50;
+}
+
+/* Form input styles */
+.form-input {
+  @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 rounded-md text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+}
+
+.btn-secondary {
+  @apply bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 focus:ring-blue-500;
+}
+
+/* Alert styles */
+.alert {
+  @apply px-4 py-3 rounded-md;
+}
+
+.alert-error {
+  @apply bg-red-100 border border-red-400 text-red-700;
+}
+
+.alert-success {
+  @apply bg-green-100 border border-green-400 text-green-700;
+}

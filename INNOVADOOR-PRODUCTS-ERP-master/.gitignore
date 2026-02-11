@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# FastAPI / Uvicorn
+*.log
+
+# Node / Vite / React
+node_modules/
+dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+*.env.*
+backend/.env
+frontend/.env
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
